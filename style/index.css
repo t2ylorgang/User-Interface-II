@@ -66,6 +66,10 @@ h1, nav {
 	flex-direction: column;
 }
 
+.top img, h2, form, p {
+	padding: 0.5em;
+}
+
 .showcase {
 	margin: 1em;
 	padding: 1em;
@@ -81,4 +85,7 @@ h1, nav {
 footer {
 	margin: 1em;
 	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
