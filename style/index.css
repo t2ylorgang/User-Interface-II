@@ -73,7 +73,7 @@ h1, nav {
 	padding: 1em;
 	display: flex;
 	flex-direction: row;
-	border: 1.5px solid chocolate;
+	border: 0.1em solid chocolate;
 }
 
 @media(max-width:700px) {
@@ -117,7 +117,7 @@ h1, nav {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	border: 1.5px solid chocolate;
+	border: 0.1em solid chocolate;
 }
 
 .showcase img {
