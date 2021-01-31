@@ -63,11 +63,21 @@ h1, nav {
 	margin: 1em;
 	padding: 1em;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .top img, h2, form, p {
 	padding: 0.5em;
+}
+
+#top-image-home {
+	max-width: 650px;
+	align-self: center;
+}
+
+.image-add-ons {
+	display: flex;
+	flex-direction: column;
 }
 
 .showcase {
@@ -89,3 +99,4 @@ footer {
 	flex-direction: column;
 	align-items: center;
 }
+
